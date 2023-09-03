@@ -1,0 +1,31 @@
+.trends__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.trends__content:hover {
+    background-color: #111;
+}
+.trends__content > p {
+    background-color: transparent;
+    border-radius: 99px;
+    padding: 2px 5px;
+    transition: all .2s ease-out;
+    opacity: .5;
+}
+.trends__content > p:hover {
+    background-color: rgba(50, 169, 243, 0.3);
+
+}
+.trends__content > p:hover > .MuiSvgIcon-root {
+    color: #32a9f3;
+}
+
+
+.trends__contentLeft > h5 {
+    font-weight: inherit;
+    opacity: .5;
+}

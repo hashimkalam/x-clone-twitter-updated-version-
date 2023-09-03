@@ -1,0 +1,99 @@
+.post {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-bottom: 0px;
+  color: lightgray;
+  cursor: pointer;
+}
+.post:hover {
+  background-color: rgba(255, 255, 255, .025);
+}
+
+.post__body {
+  flex: 1;
+  padding: 10px;
+}
+
+.post__body > img {
+  border-radius: 20px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.post__badge {
+  font-size: 14px !important;
+  color: var(--twitter-color);
+}
+
+.post__headerDescription {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.post__headerText > h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.post__headerSpecial {
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+}
+
+.post__avatar {
+  padding: 20px;
+}
+
+.post__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.post__replyIcon {
+    padding: 8px;
+    border-radius: 40px;
+}
+.post__replyIcon:hover {
+    color: rgb(12, 152, 238);
+    background-color: rgba(12, 152, 238, 0.2);
+}
+
+.post__replyRepost {
+    padding: 8px;
+    border-radius: 40px;
+}
+.post__replyRepost:hover {
+    color: rgb(71, 226, 71);
+    background-color: rgba(71, 226, 71, 0.2);
+}
+
+.post__replyLike {
+    padding: 8px;
+    border-radius: 40px;
+}
+.post__replyLike:hover {
+    color: rgb(255, 1, 44);
+    background-color: rgba(255, 1, 44, 0.2);
+}
+
+.post__replyView {
+    padding: 8px;
+    border-radius: 40px;
+}
+.post__replyView:hover {
+    color: rgb(12, 152, 238);
+    background-color: rgba(12, 152, 238, 0.2);
+}
+
+.post__replyShare {
+    padding: 8px;
+    border-radius: 40px;
+}
+.post__replyShare:hover {
+    color: rgb(12, 152, 238);
+    background-color: rgba(12, 152, 238, 0.2);
+}
+

@@ -1,0 +1,55 @@
+.feed {
+    flex: 0.48;
+    border-right: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+    background-color: #000;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+.feed__header {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    background-color: #000; /* Adjust background color as needed */
+    color: lightgray;
+    z-index: 1;
+    border-bottom: 1px solid var(--twitter-background);
+    position: sticky;
+    top: 0;
+}
+
+.feed__headerTop {
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+.feed__headerBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.feed__headerBottom > p {
+    padding-top: 10px;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+}
+
+.feed__headerBottom > p:hover {
+    background-color: #222;
+}
+
+#feed__headerActive {
+    font-weight: 800;
+    border-bottom: 2px solid #32a9f3;
+}
